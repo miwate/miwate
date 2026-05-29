@@ -1,18 +1,17 @@
 name: Generate Snake Animation
 
 on:
-  # Run automatically every 24 hours
   schedule:
     - cron: "0 0 * * *" 
-  
-  # Allow manual trigger
   workflow_dispatch:
-  
-  # Run on every push to the master/main branch
   push:
     branches:
     - main
     - master
+
+# THIS IS THE MAGIC FIX FOR EXIT CODE 128
+permissions:
+  contents: write
 
 jobs:
   generate:
@@ -20,7 +19,6 @@ jobs:
     timeout-minutes: 10
     
     steps:
-      # Generates the snake game from your contributions graph
       - name: Generate github-contribution-grid-snake.svg
         uses: Platane/snk/svg-only@v3
         with:
@@ -31,9 +29,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
-      # Pushes the generated svg to the output branch
+      # Updated to v4 to resolve the Node.js warning
       - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
