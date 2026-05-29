@@ -11,7 +11,6 @@ Software Engineer Intern at a French startup. Full stack by practice, machine le
 
 I use arch btw
 
----
 ## Tech Stack
 
 ### Languages
