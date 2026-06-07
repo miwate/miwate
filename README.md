@@ -6,7 +6,8 @@
 
 ## About Me
 
-Software Engineer Intern at a French startup. Full stack by practice, machine learning by passion. Fascinated by the hardware. Aspiring MLOps & DevOps Engineer. Thriving in environments where smart people move fast and build things that matter.
+Software Engineer Intern at a French startup. Full stack by practice, machine learning by passion. Fascinated by the hardware. Aspiring MLOps & DevOps Engineer. Thriving in environments where smart people move fast and build things that matter.<br>
+Feel free to reach out to discuss machine learning, self-hosting, and hardware!
 &nbsp;
 
 I use arch btw
@@ -21,6 +22,7 @@ I use arch btw
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=black" />
   <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
   <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" />
+  <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" />
   <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" />
   <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" />
 </div>
