@@ -65,9 +65,3 @@ I use arch btw
   <img src="https://img.shields.io/badge/Blender-F5792A?style=for-the-badge&logo=blender&logoColor=white" />
   <img src="https://img.shields.io/badge/Cinema_4D-000000?style=for-the-badge&logo=cinema4d&logoColor=white" />
 </div>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/miwate/miwate/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/miwate/miwate/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/miwate/miwate/output/github-contribution-grid-snake.svg">
-</picture>
